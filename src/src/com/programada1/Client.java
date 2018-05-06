@@ -7,6 +7,10 @@ public class Client {
     private double systemTimeLeave;
     private double queueTimeLeave;
 
+    public Client()
+    {
+
+    }
 
     public Client(int id, double systemTimeArrived, double systemTimeLeave, double queueTimeLeave) {
         this.id = id;

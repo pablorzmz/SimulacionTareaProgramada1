@@ -6,6 +6,11 @@ public class Event  {
     private double clockTime;
     int client;
 
+    public Event()
+    {
+
+    }
+
     public Event(int type, double clockTime, int client) {
         this.type = type;
         this.clockTime = clockTime;
