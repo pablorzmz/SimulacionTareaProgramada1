@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+    This class corresponds to the simulation (main class)
+*/
 public class Sim {
 
     private List<Client> clientList = new ArrayList<>();
@@ -17,6 +19,9 @@ public class Sim {
     private double randomNumber;
     private int numClientsLeave;
 
+    /**
+     * Standard constructor
+     */
     public Sim()
     {
         server[0] = -1;
